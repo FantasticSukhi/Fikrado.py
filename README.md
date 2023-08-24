@@ -5,11 +5,10 @@
 
 
 
-[![Github](https://img.shields.io/badge/Github-fikrado-yellow?style=for-the-badge&logo=github)](https://github.com/fikrado)
-[![Instagram](https://img.shields.io/badge/IG-%40mr__yahye-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/mr__yahe)
-[![Messenger](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/fikrado_hacker)
-[![Facebook](https://img.shields.io/badge/facebook-black?style=for-the-badge&logo=Facebook)](https://facebook.com/fikrado4048063)
-[![Twitter](https://img.shields.io/badge/Twitter-purple?style=for-the-badge&logo=Twitter)](https://twitter.com/fikrado1)
+[![Github](https://img.shields.io/badge/Github-fikrado-yellow?style=for-the-badge&logo=github)](https://github.com/FantasticSukhi)
+[![Instagram](https://img.shields.io/badge/IG-%40mr__yahye-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/sukhpalinsta)
+[![Messenger](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/MAMBA_RETURNS)
+[![Twitter](https://img.shields.io/badge/Twitter-purple?style=for-the-badge&logo=Twitter)](https://twitter.com/Sukhpalkherera)
 
 <p align="center">
  <img height="250" src="fp.png" >
@@ -26,14 +25,8 @@ for more information thanks to tgeniusclub to full docmented the tool at this bl
 or use it on goole cloude by click on the bottom below and remember to download the dependence 
 </h4>
 
-[![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/fikrado/fikrado.py&tutorial=README.md) 
+[![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/FantasticSukhi/fikrado.py&tutorial=README.md) 
 
-
-### PLEASE DONATE 
-<h5>
-patreon https://patreon.com/fikrado
-liberapay https://liberapay.com/fikrado
-</h5>
 
 ____________
 
@@ -53,7 +46,7 @@ python2 fikrado.py
 
 ____________
 
-### [+]Andiroid Termux ScreenShot
+### [+]Android Termux ScreenShot
 <img width="100px" src="/PicsArt_09-11-08.26.12.jpg">
 
 ## [+] kali installation
