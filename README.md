@@ -5,7 +5,7 @@
 
 
 
-[![Github](https://img.shields.io/badge/Github-Fantastic-Sukhi-yellow?style=for-the-badge&logo=github)](https://github.com/FantasticSukhi)
+[![Github](https://img.shields.io/badge/Github-yellow?style=for-the-badge&logo=github)](https://github.com/FantasticSukhi)
 [![Instagram](https://img.shields.io/badge/IG-%40Instagram-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/sukhpalinsta)
 [![Messenger](https://img.shields.io/badge/telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/MAMBA_RETURNS)
 [![Twitter](https://img.shields.io/badge/Twitter-purple?style=for-the-badge&logo=Twitter)](https://twitter.com/Sukhpalkherera)
