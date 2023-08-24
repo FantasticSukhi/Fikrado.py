@@ -1,6 +1,6 @@
 
 <p align="center">
-  <h1 align="center">FIKRADO.PY THE FACEBOOK HACKINGN TOOL</h1>
+  <h1 align="center">FIKRADO.PY THE FACEBOOK HACKING TOOL</h1>
 </p>
 
 
