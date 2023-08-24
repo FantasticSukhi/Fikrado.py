@@ -48,7 +48,7 @@ def jalan(z):
 #### LOGO ####
 logo = """
   __ _ _                  _                    
- / _(_) | ___ __ __ _  __| | ___   _ __  _   _     =/\  VERTION 3.0    /\=
+ / _(_) | ___ __ __ _  __| | ___   _ __  _   _     =/\  VERSION 3.0    /\=
 | |_| | |/ / '__/ _` |/ _` |/ _ \ | '_ \| | | |    / \'._   (\_/)   _.'/ \
 |  _| |   <| | | (_| | (_| | (_) || |_) | |_| |   / .''._'--(o.o)--'_.''. \
 |_| |_|_|\_\_|  \__,_|\__,_|\___(_) .__/ \__, |  /.' _/ |`'=/ " \='`| \_ `.\
@@ -93,7 +93,7 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;91mFACEBOOK ACOOUNT DETAILS U AND P \x1b[1;96m[☆]' )
+		print('\033[1;96m[☆] \x1b[1;91mFACEBOOK ACCOUNT DETAILS U AND P \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
@@ -175,7 +175,7 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;40m══if you are knownbout hacking"	
+	print "\033[1;32;40m[1] \033[1;33;40m══if you are known about hacking"	
 	print "\033[1;32;40m[2] \033[1;33;40m══Update toolkit"																														
 	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
 	pilih()
